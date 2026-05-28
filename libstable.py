@@ -1601,7 +1601,7 @@ if _NB_AVAILABLE:
         if not (-1.0 <= bv <= 1.0 and cv > 0.0 and _math.isfinite(mv)): return 1.0e30
         return _nb_nll(data, av, bv, cv, mv, nodes, weights)
 
-    @njit(cache=True)
+    @njit(cache=True, nogil=True)
     def _nb_mle2d_jit(data, cn, q50, ab0, nodes, weights, xatol, fatol, maxiter):
         """2D Nelder-Mead MLE in JIT. ab=[logit-like alpha, arctanh beta]."""
         ND = 2; NV = 3
@@ -1672,7 +1672,7 @@ if _NB_AVAILABLE:
         cbest, zbest = _nb_czab_jit(abest, bbest, cn, q50)
         return abest, bbest, cbest, zbest
 
-    @njit(cache=True)
+    @njit(cache=True, nogil=True)
     def _nb_mle4d_jit(data, pv0, nodes, weights, xatol, fatol, maxiter):
         """4D Nelder-Mead MLE in JIT. pv=[tan_a, tan_b, log_s, mu]."""
         ND = 4; NV = 5
