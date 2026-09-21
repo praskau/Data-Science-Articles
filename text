@@ -1,0 +1,13 @@
+Purpose
+Introduce the new AM Model Risk Dashboard and its intended use in governance forums.
+
+Summary of Presentation
+
+1. Framing. The dashboard is anchored to the Risk Appetite Statement and its KRIs, tracks status against key governance milestones, and surfaces escalations routed through the RMM, MRC, and [third forum — confirm name, dictated as "MOPs"]. It is designed to answer three questions: what's changed, are we within appetite, and where intervention is needed.
+2. Structure. Page 1 is an executive summary; subsequent pages are drill-downs tied to each page-1 headline, navigable in two clicks.
+3. Key change highlighted. The dashboard is forward-looking — it surfaces upcoming deadlines and overdue actions, not only prior-month status. This is intended to let the team prep, notify, and follow up with model owners ahead of breaches, rather than reacting after an item is flagged in the RAS or a regional/IWPB MOC. Presenter noted this proactive-management capability as a specific objective set by Rajeev.
+4. Dashboard sections walked through:
+   - RAS section — model risk appetite metrics and associated KRIs, formatted for direct use in governance.
+   - Model inventory — 20 models currently in use (10 Investments, 4 Risk, 3 ESG, 3 [fourth function — dictated as "edges QH", confirm]).
+   - Model governance — model monitoring, backtest violations, revalidation, open findings/MRIs, and remediation plans.
+   - QMO and escalations — QMO as single entry point for all models into inventory; escalations covered at section close.
